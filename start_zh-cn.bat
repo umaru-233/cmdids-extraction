@@ -1,5 +1,4 @@
 @echo off
-color 1F
 title cmdid提取工具 1.0.0 
 echo. 版本：1.0.0 
 echo. 开发者：umaru

@@ -1,5 +1,4 @@
 @echo off
-color 1F
 title Cmdids Extraction Tool 1.0.0 
 echo. Version:1.0.0 
 echo. Developer:umaru
