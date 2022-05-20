@@ -5,4 +5,4 @@ Before you start, make sure nodejs is installed. If you haven't installed it, yo
 # How to use
 Step1.Clone this repo
 Step2.Put all proto fils to ./proto/
-Step3.use`start.bat` or`node getcmdids.js`to run
+Step3.use`start.bat` or`node getcmdids_pancake.js`to run
