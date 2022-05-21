@@ -8,3 +8,7 @@ Before you start, make sure nodejs is installed. If you haven't installed it, yo
 Step1.Clone this repo  
 Step2.Put all proto fils to ./proto/  
 Step3.use`start.bat` or`node getcmdids_pancake.js`to run  
+# Fork
+Compared with the original, 
+ - This fork fixed an issue where some of the grasscutter instructions were still executed after selecting pancake. 
+ - PacketIds.json is generated when pancake mode is selected.
