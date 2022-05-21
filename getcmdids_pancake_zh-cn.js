@@ -11,7 +11,7 @@ function getCmdids() {
       protoStr += `"${cmdId[1]}": "${file.replace('.proto', '')}",\n`;
     }
   })
-  fs.writeFileSync('./cmdids.json', protoStr);
+  fs.writeFileSync('./packetIds.json', protoStr);
 }
 getCmdids();
 console.log('操作成功完成。请查看./cmdids.json。');
