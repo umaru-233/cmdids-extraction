@@ -1,5 +1,5 @@
 [EN](README.MD)|中文
-## CMIDS提取工具
+## CMDIDS提取工具
 
 这是Genshin Impact的CMDIDS提取工具。
 
@@ -14,3 +14,7 @@
 步骤二.将所有原始文件置于/proto/
 
 步骤三.使用 `start.bat` 或者 `node getcmdids_pancake.js` 运行
+## 分支
+对比原版:
+ - 修复了选择 `pancake模式´ 后依旧执行 `grasscutter模式´ 的问题。
+ - 选择 `pancake模式´ 将生成packetIds.json。
