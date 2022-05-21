@@ -16,5 +16,5 @@
 步骤三.使用 `start.bat` 或者 `node getcmdids_pancake.js` 运行
 ## 分支
 对比原版:
- - 修复了选择 `pancake模式´ 后依旧执行 `grasscutter模式´ 的问题。
+ - 修复了选择 `pancake模式` 后依旧执行 `grasscutter模式` 的问题。
  - 选择 `pancake模式´ 将生成packetIds.json。
