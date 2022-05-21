@@ -1,7 +1,5 @@
 EN|[中文](README_zh-cn.md)
 
-[umaru-233](https://github.com/umaru-233)
-
 # Cmdids Extraction Tool
 This is a Genshin cmdids Extraction Tool.  
 Warning: Please put all proto files in./proto/ directory, otherwise the tool will not run.  
