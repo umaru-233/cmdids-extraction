@@ -1,8 +1,8 @@
 @echo off
-title Cmdids Extraction Tool 1.0.0 
-echo. Version:1.0.0 
+title Cmdids Extraction Tool 1.0.1 
+echo. Version:1.0.1 
 echo. Developer:umaru
-echo. Build date:May 20, 2022
+echo. Build date:May 22, 2022
 echo. Welcome to use cmdids Extraction tool.
 echo. Warning: Please put all proto files in ./proto/ directory, otherwise the tool will not run.
 echo. Before you start, make sure nodejs is installed. If you haven't installed it, you can download it here.
