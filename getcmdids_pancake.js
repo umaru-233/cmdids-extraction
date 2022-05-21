@@ -14,6 +14,6 @@ function npm_run_devstart() {
   fs.writeFileSync('./packetIds.json', protoStr);
 }
 npm_run_devstart();
-console.log('done!Please check the ./cmdids.json file.');
+console.log('done!Please check the ./packetIds.json file.');
 
  
