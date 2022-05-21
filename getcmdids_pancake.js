@@ -11,7 +11,7 @@ function npm_run_devstart() {
       protoStr += `"${cmdId[1]}": "${file.replace('.proto', '')}",\n`;
     }
   })
-  fs.writeFileSync('./cmdids.json', protoStr);
+  fs.writeFileSync('./packetIds.json', protoStr);
 }
 npm_run_devstart();
 console.log('done!Please check the ./cmdids.json file.');
