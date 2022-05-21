@@ -14,6 +14,6 @@ function getCmdids() {
   fs.writeFileSync('./packetIds.json', protoStr);
 }
 getCmdids();
-console.log('操作成功完成。请查看./cmdids.json。');
+console.log('操作成功完成。请查看./packetIds.json。');
 
  
