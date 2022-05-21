@@ -17,6 +17,6 @@
 ## 分支
 对比原版:
  - 修复了选择 `pancake模式` 后依旧执行 `grasscutter模式` 的问题。
- - 选择 `pancake模式´ 将生成packetIds.json。
+ - 选择 `pancake模式` 将生成packetIds.json。
 
 *修正了本人频繁打错字的问题(大概)*
