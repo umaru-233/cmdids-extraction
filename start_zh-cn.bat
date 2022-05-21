@@ -1,8 +1,8 @@
 @echo off
-title cmdid提取工具 1.0.0 
-echo. 版本：1.0.0 
+title cmdid提取工具 1.0.1 
+echo. 版本：1.0.1
 echo. 开发者：umaru
-echo. 构建日期：May 20, 2022
+echo. 构建日期：May 22, 2022
 echo. 欢迎使用cmdid提取工具。
 echo. 警告：请将所有欲提取的proto文件放在./proto/目录内，否则程序将无法运行。
 echo. 在开始前，请确定你已安装nodejs。如果未安装，请前往此处下载。
