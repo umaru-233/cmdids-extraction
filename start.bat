@@ -1,6 +1,6 @@
 @echo off
-title Cmdids Extraction Tool 1.0.1 
-echo. Version:1.0.1 
+title Cmdids Extraction Tool 1.0.2
+echo. Version:1.0.2
 echo. Developer:umaru
 echo. Build date:May 22, 2022
 echo. Welcome to use cmdids Extraction tool.
@@ -11,7 +11,7 @@ goto menu
 :menu
 echo.[1] Pancake format 
 echo.[2] Grasscutter format
-echo.[3] ÖÐÎÄ
+echo.[3] start_zh-cn
 set /p choose_format=Please press 1, 2 or 3 
 if %choose_format%==1 goto :pancake
 if %choose_format%==2 goto :grasscutter
@@ -20,9 +20,11 @@ if %choose_format%==3 goto :start_zh-cn
 rem 
 node getcmdids_pancake.js
 pause
+.\packetIds.json
 exit
 :grasscutter
 node getcmdids_grasscutter.js
+.\PacketOpcodes.java
 pause
 exit
 :start_zh-cn
