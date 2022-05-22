@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+
+message FuckUmiHoMoReq {
+	enum CmdId {
+		option allow_alias = true;
+		ENET_CHANNEL_ID = 0;
+		NONE = 0;
+		ENET_IS_RELIABLE = 1;
+		IS_ALLOW_CLIENT = 1;
+		CMD_ID = 114514;
+	}
+
+	uint32 seq = 11;
+	uint32 client_time = 45;
+	bytes sc_data = 1;
+	float ue_time = 4;
+}
