@@ -14,8 +14,7 @@
 步骤二.将所有proto文件置于 `./proto` 目录下
 
 步骤三.使用 `start.bat` 或者 `node getcmdids_pancake.js` 运行
-## 分支
-对比原版:
+## 更新
  - 修复了选择 `pancake` 格式后依旧执行 `grasscutter` 格式的问题。
  - 选择 `pancake模式` 将生成packetIds.json。
  - 修改了 `grasscutter` 格式生成的文件名。
