@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+
+message FuckUmiHoMoRsp {
+	enum CmdId {
+		option allow_alias = true;
+		NONE = 0;
+		ENET_CHANNEL_ID = 0;
+		ENET_IS_RELIABLE = 1;
+		CMD_ID = 1919810;
+	}
+
+	int32 retcode = 19;
+	uint32 seq = 19;
+	uint32 client_time = 810;
+}
