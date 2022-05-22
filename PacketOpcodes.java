@@ -1,7 +1,7 @@
 package emu.grasscutter.net.packet;
 import java.util.Arrays;
 import java.util.HashSet;
- import java.util.List;
+import java.util.List;
 public class PacketOpcodes {
     public static final int NONE = 0;
 
