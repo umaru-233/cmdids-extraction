@@ -8,10 +8,10 @@ function npm_run_devstart() {
     const content = fs.readFileSync(protoPath + file, 'utf-8');
     const cmdId = content.match(/CMD_ID = (\d+);/);
     if (cmdId) {
-      protoStr += `"${cmdId[1]}": "${file.replace('.proto', '')}",\n`;
+      protoStr += `   "${cmdId[1]}": "${file.replace('.proto', '')}",\n`;
     }
   })
-  fs.writeFileSync('./packetIds.json', '{\n','utf-8');
+  fs.writeFileSync('./packetIds.json', '{\n   "13371337": "PacketHead",\n','utf-8');
   fs.appendFileSync('./packetIds.json', protoStr);
   const appendFileContent = '}';
   fs.appendFileSync('./packetIds.json', appendFileContent, 'utf-8');
