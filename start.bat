@@ -24,8 +24,8 @@ pause
 exit
 :grasscutter
 node getcmdids_grasscutter.js
-.\PacketOpcodes.java
 pause
+.\PacketOpcodes.java
 exit
 :start_zh-cn
 start_zh-cn.bat

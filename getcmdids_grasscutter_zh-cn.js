@@ -13,7 +13,7 @@ function getCmdids() {
     })
     fs.writeFileSync('./PacketOpcodes.java', 'package emu.grasscutter.net.packet;\nimport java.util.Arrays;\nimport java.util.HashSet;\nimport java.util.List;\npublic class PacketOpcodes {\n    public static final int NONE = 0;\n\n','utf-8');
     fs.appendFileSync('./PacketOpcodes.java', protoStr,'utf-8');
-    const appendFileContent = "\npublic static final HashSet<Integer> BANNED_PACKETS = new HashSet<Integer>() {{\n    add(PacketOpcodes.WindSeedClientNotify);\n    add(PacketOpcodes.PlayerLuaShellNotify);\n}};\n}\n";
+    const appendFileContent = "\npublic static final HashSet<Integer> BANNED_PACKETS = new HashSet<Integer>() {{\n    add(PacketOpcodes.WindSeedClientNotify);\n    add(PacketOpcodes.PlayerLuaShellNotify);\n    }};\n}\n";
     fs.appendFileSync('./PacketOpcodes.java', appendFileContent, 'utf-8');
   }
   getCmdids();
