@@ -18,5 +18,8 @@
 对比原版:
  - 修复了选择 `pancake模式` 后依旧执行 `grasscutter模式` 的问题。
  - 选择 `pancake模式` 将生成packetIds.json。
+ - 修改了 `grasscutter` 格式生成的文件名。
+ - 在生成的文件中添加了一些文本。
+ - 您可能依旧需要修改一下 `packetids.json`。
 
 *修正了本人频繁打错字的问题(大概)*
