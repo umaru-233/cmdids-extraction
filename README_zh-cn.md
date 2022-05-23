@@ -3,13 +3,17 @@
 
 这是Genshin Impact的cmdid提取工具。
 
-警告：请放入所有proto文件至`/proto`目录，否则该工具将不会运行。
+
+警告：请在`/proto`目录放入所有proto文件，否则该工具将不会运行。
+
+
 
 开始之前，请确保已安装nodejs。
 - 如果尚未安装，可以在 [此处](https://nodejs.org/) 下载。
 ## 如何使用
 
 步骤一.克隆/下载这个项目
+
 
 步骤二.将所有proto文件置于/proto/
 
@@ -20,4 +24,6 @@
  - 修改了 `grasscutter` 格式生成的文件名。
  - 在生成的文件中添加了一些文本。
  - 您可能依旧需要修改一下 `packetids.json` 的格式。
- - 在packetids.json中新增了id13371337。现在您无需手动添加此id了。
+ - 在使用pancake格式时自动添加  `"13371337": "PacketHead",` 。
+
+
