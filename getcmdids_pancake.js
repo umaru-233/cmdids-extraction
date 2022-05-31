@@ -1,7 +1,7 @@
 function npm_run_devstart() {
     const fs = require('fs');
     const protoPath = './proto/';
-    console.log('Found proto files.Please wait...');
+    console.log('Dumping CMDIDs...');
     const protoFiles = fs.readdirSync(protoPath);
     let protoStr = '';
     protoFiles.forEach(file => {
@@ -23,4 +23,4 @@ function npm_run_devstart() {
     fs.appendFileSync('./packetIds.json', appendFileContent, 'utf-8');
 }
 npm_run_devstart();
-console.log('done!Please check the ./packetIds.json file.');
+console.log('Done! Please check packetIds.json (File will open after pressing any key)');
