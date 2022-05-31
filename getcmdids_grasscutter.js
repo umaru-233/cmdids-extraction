@@ -17,7 +17,7 @@ function getCmdids() {
             protoStr += `public static final int ${file.replace('.proto', '')} = ${cmdId[1]};\n`;
        }
     })
-    fs.writeFileSync('./PacketOpcodes.java', 'package emu.grasscutter.net.packet;\nimport java.util.HashSet\npublic class PacketOpcodes {\n    public static final int NONE = 0;\n\n','utf-8');
+    fs.writeFileSync('./PacketOpcodes.java', 'package emu.grasscutter.net.packet;\n\nimport java.util.HashSet;\n\npublic class PacketOpcodes {\n    public static final int NONE = 0;\n\n','utf-8');
     fs.appendFileSync('./PacketOpcodes.java', protoStr,'utf-8');
     const appendFileContent = "\npublic static final HashSet<Integer> BANNED_PACKETS = new HashSet<Integer>() {{\n    add(PacketOpcodes.WindSeedClientNotify);\n    add(PacketOpcodes.PlayerLuaShellNotify);\n    }};\n}\n";
     fs.appendFileSync('./PacketOpcodes.java', appendFileContent, 'utf-8');

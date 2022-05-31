@@ -1,17 +1,17 @@
 @echo off
-title cmdidÌáÈ¡¹¤¾ß 1.0.2
-echo. °æ±¾£º1.0.2
-echo. ¿ª·¢Õß£ºumaru
-echo. ¹¹½¨ÈÕÆÚ£ºMay 22, 2022
-echo. »¶Ó­Ê¹ÓÃcmdidÌáÈ¡¹¤¾ß¡£
-echo. ¾¯¸æ£ºÇë½«ËùÓÐÓûÌáÈ¡µÄprotoÎÄ¼þ·ÅÔÚ./proto/Ä¿Â¼ÄÚ£¬·ñÔò³ÌÐò½«ÎÞ·¨ÔËÐÐ¡£
-echo. ÔÚ¿ªÊ¼Ç°£¬ÇëÈ·¶¨ÄãÒÑ°²×°nodejs¡£Èç¹ûÎ´°²×°£¬ÇëÇ°Íù´Ë´¦ÏÂÔØ¡£
+title cmdidï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ 1.0.2
+echo. ï¿½æ±¾ï¿½ï¿½1.0.2
+echo. ï¿½ï¿½ï¿½ï¿½ï¿½ß£ï¿½umaru
+echo. ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú£ï¿½May 22, 2022
+echo. ï¿½ï¿½Ó­Ê¹ï¿½ï¿½cmdidï¿½ï¿½È¡ï¿½ï¿½ï¿½ß¡ï¿½
+echo. ï¿½ï¿½ï¿½æ£ºï¿½ë½«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½protoï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½./proto/Ä¿Â¼ï¿½Ú£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ·ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½
+echo. ï¿½Ú¿ï¿½Ê¼Ç°ï¿½ï¿½ï¿½ï¿½È·ï¿½ï¿½ï¿½ï¿½ï¿½Ñ°ï¿½×°nodejsï¿½ï¿½ï¿½ï¿½ï¿½Î´ï¿½ï¿½×°ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½Ë´ï¿½ï¿½ï¿½ï¿½Ø¡ï¿½
 echo. https://nodejs.org/
 goto menu
 :menu
-echo.[1] Pancake ¸ñÊ½
-echo.[2] Grasscutter ¸ñÊ½
-set /p choose_format=Çë°´1»ò2 
+echo.[1] Pancake ï¿½ï¿½Ê½ (packetIds.json) 
+echo.[2] Grasscutter ï¿½ï¿½Ê½ (PacketOpcodes.java)
+set /p choose_format=ï¿½ë°´1ï¿½ï¿½2 
 if %choose_format%==1 goto :pancake
 if %choose_format%==2 goto :grasscutter
 :pancake
