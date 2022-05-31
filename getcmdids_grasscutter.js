@@ -1,7 +1,7 @@
 function getCmdids() {
     const fs = require('fs');
     const protoPath = './proto/';
-    console.log('Found proto files.Please wait...');
+    console.log('Extracting CMDIDs...');
     const protoFiles = fs.readdirSync(protoPath);
     let protoStr = '';
     protoFiles.forEach(file => {
@@ -23,4 +23,4 @@ function getCmdids() {
     fs.appendFileSync('./PacketOpcodes.java', appendFileContent, 'utf-8');
   }
   getCmdids();
-  console.log('done!Please check the ./PacketOpcodes.java file.');
+  console.log('Done! Please check PacketOpcodes.java (File will open after pressing any key)');
