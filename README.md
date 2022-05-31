@@ -1,13 +1,18 @@
 EN|[中文](README_zh-cn.md)
 
 # Cmdids Extraction Tool
-This is a Genshin cmdids Extraction Tool.  
-Warning: Please put all proto files in./proto/ directory, otherwise the tool will not run.  
-Before you start, make sure nodejs is installed. If you haven't installed it, you can download it [here](https://nodejs.org/).  
-# How to use
-Step1.Clone this repo  
-Step2.Put all proto fils to ./proto/  
-Step3.use`start.bat` or`node getcmdids_pancake.js`to run  
+An extraction tool to extract CMD IDs from Genshin
+  
+## Usage
+**Make sure Node.js is installed. If you haven't installed it, download it here: https://nodejs.org/**
+
+### 1. Download the tool 
+- Download the latest release from https://github.com/umaru-233/Cmdids-Extraction-Tool/releases, download the ZIP file, and extract it
+- or `git clone https://github.com/umaru-233/Cmdids-Extraction-Tool.git`
+
+### 2.Put all proto files to `proto/`
+
+### 3. Launch `start.bat`  
 
 # Update 1.0.2
 Thanks to Sycamore0,
