@@ -6,10 +6,16 @@ function getCmdids() {
     let protoStr = '';
     protoFiles.forEach(file => {
       const content = fs.readFileSync(protoPath + file, 'utf-8');
-      const cmdId = content.match(/CMD_ID = (\d+);/);
-      if (cmdId) {
-        protoStr += `public static final int ${file.replace('.proto', '')} = ${cmdId[1]};\n`;
-      }
+        let cmdId = content.match(/CMD_ID = (\d+);/);
+        if (cmdId === null) {
+            let cmdId = content.match(/CmdId: (\d+)/);
+            if (cmdId) {
+                protoStr += `public static final int ${file.replace('.proto', '')} = ${cmdId[1]};\n`;
+            }
+        }
+        else {
+            protoStr += `public static final int ${file.replace('.proto', '')} = ${cmdId[1]};\n`;
+        }
     })
     fs.writeFileSync('./PacketOpcodes.java', 'package emu.grasscutter.net.packet;\nimport java.util.Arrays;\nimport java.util.HashSet;\nimport java.util.List;\npublic class PacketOpcodes {\n    public static final int NONE = 0;\n\n','utf-8');
     fs.appendFileSync('./PacketOpcodes.java', protoStr,'utf-8');
