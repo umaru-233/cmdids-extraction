@@ -1,7 +1,7 @@
 function npm_run_devstart() {
     const fs = require('fs');
     const protoPath = './proto/';
-    console.log('Dumping CMDIDs...');
+    console.log('Extracting CMDIDs...');
     const protoFiles = fs.readdirSync(protoPath);
     let protoStr = '';
     protoFiles.forEach(file => {
