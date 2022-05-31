@@ -1,7 +1,7 @@
 EN|[中文](README_zh-cn.md)
 
-# Cmdids Extraction Tool
-An extraction tool to extract CMD IDs from Genshin
+# CMD IDs Extraction Tool
+An extraction tool to extract CMD IDs/Packet IDs from Genshin
   
 ## Usage
 **Make sure Node.js is installed. If you haven't installed it, download it here: https://nodejs.org/**
