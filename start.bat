@@ -9,8 +9,8 @@ echo. Before you start, make sure nodejs is installed. If you haven't installed 
 echo. https://nodejs.org/
 goto menu
 :menu
-echo.[1] Pancake format 
-echo.[2] Grasscutter format
+echo.[1] Pancake format (packetIds.json) 
+echo.[2] Grasscutter format (PacketOpcodes.java)
 echo.[3] start_zh-cn
 set /p choose_format=Please press 1, 2 or 3 
 if %choose_format%==1 goto :pancake
