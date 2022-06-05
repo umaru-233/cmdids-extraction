@@ -16,7 +16,7 @@ EN|[中文](README_zh-cn.md)
 
 ### 4. The files will be in `./Output` folder
 
-# Update 1.0.2
+# Update
 Thanks to Sycamore0,
  - This version fixed an issue where some of the grasscutter instructions were still executed after selecting pancake. 
  - PacketIds.json is generated when pancake mode is selected.
