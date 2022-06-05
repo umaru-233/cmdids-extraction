@@ -14,7 +14,7 @@
 
 ### 步骤四.文件将在 `./Output` 中生成
 
-# 版本1.0.2
+#更新
 Sycamore0：
  - 修复了选择 `pancake模式` 后依旧执行 `grasscutter模式` 的问题。
  - 选择 `pancake模式` 将生成packetIds.json。
