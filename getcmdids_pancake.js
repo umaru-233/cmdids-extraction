@@ -1,4 +1,4 @@
-function npm_run_devstart() {
+function getCmdids() {
     const fs = require('fs');
     const protoPath = './proto/';
     console.log('Extracting CMDIDs...');
@@ -17,10 +17,10 @@ function npm_run_devstart() {
             protoStr += `   "${cmdId[1]}": "${file.replace('.proto', '')}",\n`;
         }
     })
-    fs.writeFileSync('./packetIds.json', '{\n   "13371337": "PacketHead",\n', 'utf-8');
-    fs.appendFileSync('./packetIds.json', protoStr);
+    fs.writeFileSync('./Output/packetIds.json', '{\n   "13371337": "PacketHead",\n', 'utf-8');
+    fs.appendFileSync('./Output/packetIds.json', protoStr);
     const appendFileContent = '}';
-    fs.appendFileSync('./packetIds.json', appendFileContent, 'utf-8');
+    fs.appendFileSync('./Output/packetIds.json', appendFileContent, 'utf-8');
 }
-npm_run_devstart();
-console.log('Done! Please check packetIds.json (File will open after pressing any key)');
+getCmdids();
+console.log('Done! Please check ./Output/packetIds.json');
