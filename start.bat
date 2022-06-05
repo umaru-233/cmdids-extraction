@@ -20,13 +20,12 @@ if %choose_format%==3 goto :start_zh-cn
 rem 
 node getcmdids_pancake.js
 pause
-.\packetIds.json
 exit
 :grasscutter
 node getcmdids_grasscutter.js
 pause
-.\PacketOpcodes.java
 exit
 :start_zh-cn
+cls
 start_zh-cn.bat
 exit
